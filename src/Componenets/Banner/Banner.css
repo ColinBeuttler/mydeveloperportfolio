@@ -1,0 +1,82 @@
+.banner1{
+    display: flex;
+    font-size: 90px;
+    margin-top: 6%;
+    font-family: 'Major Mono Display', monospace;
+    margin-left: 15%;
+
+}
+
+.banner2{
+    display: flex;
+    margin-left: 30%;
+    font-size: 75px;
+    margin-top: 7%;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+.banner3{
+    display: flex;
+    margin-left: 40%;
+    font-size: 75px;
+    margin-top: 4%;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+.banner4{
+    display: flex;
+    margin-left: 50%;
+    font-size: 75px;
+    margin-top: 4%;
+    font-family: 'Major Mono Display', monospace;
+
+}
+
+.container{
+    top: 30%;
+}
+
+
+  .arrow{
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+  }
+  .arrow span{
+      display: block;
+      width: 30px;
+      height: 30px;
+      border-bottom: 5px solid black;
+      border-right: 5px solid black;
+      transform: rotate(45deg);
+      margin: -10px;
+      animation: animate 2s infinite;
+      transition: transform .2s;
+  }
+  .arrow span:nth-child(2){
+      animation-delay: -0.2s;
+  }
+  .arrow span:nth-child(3){
+      animation-delay: -0.4s;
+  }
+  .arrow:hover {
+    transform: scale(1.4); 
+    margin-top: -50px;
+}
+
+  @keyframes animate {
+      0%{
+          opacity: 0;
+          transform: rotate(45deg) translate(-20px,-20px);
+      }
+      50%{
+          opacity: 1;
+      }
+      100%{
+          opacity: 0;
+          transform: rotate(45deg) translate(20px,20px);
+      }
+  }
