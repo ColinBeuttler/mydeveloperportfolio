@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
-
 import classes from './Banner.css'
-
+import { withRouter } from 'react-router-dom';
 
 class Arrow extends Component {
+
+    clicked = () => {
+        this.props.history.push('/content')
+    };
+
+
     render() {
+
         return (
-            <div className={classes.arrow}>
-                
+            <div onClick={this.clicked} className={classes.arrow}>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -18,4 +23,4 @@ class Arrow extends Component {
 }
 
 
-export default Arrow;
+export default withRouter(Arrow);

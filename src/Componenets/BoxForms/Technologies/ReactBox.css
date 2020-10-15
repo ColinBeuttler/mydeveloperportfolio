@@ -1,0 +1,20 @@
+.Boxform {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left:31%;
+    width: 200px;
+    height: 180px;
+    padding: 40px;
+    background-image: url(../../Images/react.png);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    margin-bottom: 25%;
+    color: white;
+  }
+
+  .Boxform:hover {
+    transform: scale(1.4); 
+    margin-top: -50px;
+}

@@ -20,22 +20,22 @@
 }
 
 .one {
-  background: #efdefe;
+  background-image: url(../Images/2gfwG.png);
   width: 100vw;
   height: 100vh;
 }
 .two {
-  background: #a3f3d3;
+  background-image: url(../Images/2gfwG.png);
   width: 100vw;
   height: 100vh;
 }
 .three {
-  background: #0bbaa0;
+  background-image: url(../Images/2gfwG.png);
   width: 100vw;
   height: 100vh;
 }
 .four {
-  background: #00dfdf;
+  background-image: url(../Images/fgI4k.jpg);
   width: 100vw;
   height: 100vh;
 }
@@ -43,3 +43,4 @@
 ::-webkit-scrollbar {
   display:none;
 }
+

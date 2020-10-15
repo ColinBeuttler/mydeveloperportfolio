@@ -1,8 +1,8 @@
 .Contactbox {
     position: absolute;
-    display: inline-block;
-    top: 250%;
-    left: 50%;
+    display: flexbox;
+    top: 50%;
+    left: 88%;
     width: 800px;
     padding: 40px;
     transform: translate(-50%, -50%);
@@ -11,6 +11,10 @@
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
     margin-bottom: 25%;
-
-    
   }
+
+  .Contactbox:hover {
+    transform: scale(1.4);
+    top:33%; 
+    left:85%;
+}

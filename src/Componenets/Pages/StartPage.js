@@ -14,7 +14,7 @@ class StartPage extends Component {
 
                 <Banner />
 
-                <Arrow />
+                <Arrow/>
 
             </AuxComp>
 

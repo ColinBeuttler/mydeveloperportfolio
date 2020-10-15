@@ -1,9 +1,10 @@
 import React from 'react';
 import classes from './Banner.css';
+import { Parallax } from 'react-scroll-parallax';
 
 const banner = () => (
     
-    <div className={classes.container}>
+    <Parallax className={classes.container} >
 
         <h1 className={classes.banner1}>
             Colin Beuttler
@@ -18,7 +19,7 @@ const banner = () => (
             ...Developer
     </h4>
 
-    </div>
+    </Parallax>
 )
 
 export default banner;
