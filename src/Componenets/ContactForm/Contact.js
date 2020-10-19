@@ -28,14 +28,14 @@ resume = () => {
             beutt102@mail.chapman.edu
       
         </h2>  
-        <a onClick={this.github}>
+        <p className={classes.textbox} onClick={this.github}>
             GitHub
-            </a>
+            </p>
         
-        <a onClick={this.linkedin}> 
+        <p className={classes.textbox} onClick={this.linkedin}> 
             LinkedIn
-     </a>
-        <p onClick={this.resume}>
+     </p>
+        <p className={classes.textbox} onClick={this.resume}>
  
             Resume
         </p>
