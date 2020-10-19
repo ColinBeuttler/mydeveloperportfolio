@@ -11,42 +11,50 @@ import WeatherApp from '../BoxForms/Websites/WeatherBlog';
 
 
 
-class Cardform extends Component {
 
 
+class Cardform extends Component {    
+   
     render() {
+
         return (
             <div className={classes.outerwrapper}>
 
                 <div className={classes.wrapper}>
 
                     <div className={classes.one}>
+
                         <Banner />
+
                     </div>
+
                     <div className={classes.two}>
+
                         <CssBox />
                         <ScrollParallaxBox />
                         <ReactBox />
+
                     </div>
+
                     <div className={classes.three}>
+
                         <GoPlayRough />
                         <WeatherApp />
 
                     </div>
+
                     <div className={classes.four}>
+
+                        <Contactform />
+
                     </div>
 
-                    
-
-                    <Contactform />
 
 
                 </div>
 
             </div>
         )
-
-
     }
 }
 

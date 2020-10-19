@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import classes from './WeatherBlog.css'
+import classes from './WeatherBlog.css';
+import { withRouter } from 'react-router-dom';
 
-const weatherApp = () => (
+class WeatherApp extends Component{
 
-    <div className={classes.Boxform}>
+    clicked = () => {
+        this.props.history.push('/weatherblog')
+    };
+
+    render(){
+        return(
+             <div className={classes.Boxform} onClick={this.clicked}>
 
     </div>
+        )
+    }
+};
 
-);
-
-export default weatherApp;
+export default withRouter(WeatherApp);

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+
 import classes from './Banner.css'
 import { withRouter } from 'react-router-dom';
 

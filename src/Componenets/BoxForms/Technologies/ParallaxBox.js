@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import classes from './ParallaxBox.css'
+import { withRouter } from 'react-router-dom';
 
-const scrollParallaxBox = () =>(
-   
-           <div className={classes.Boxform}>
-        
-        
-        
-    </div>
+class ScrollParallaxBox extends Component {
+
+    clicked = () => {
+        this.props.history.push('/parallax')
+    };
     
- 
-);
+    render() {
+        return (
+            <div className={classes.Boxform} onClick={this.clicked} >
 
-export default scrollParallaxBox;
+
+
+            </div>
+        )
+    }
+};
+
+
+export default withRouter(ScrollParallaxBox);

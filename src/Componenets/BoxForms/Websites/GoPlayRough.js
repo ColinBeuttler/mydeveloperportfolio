@@ -1,15 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import classes from './GoPlayRough.css';
+import { withRouter } from 'react-router-dom';
 
 
-const goPlayRough = () => (
+class GoPlayRough extends Component {
 
-     <div className={classes.Boxform}>
+    clicked = () => {
+        this.props.history.push('/goplayrough')
+    };
 
-    </div>
+    render() {
 
-)
-   
+        return (
 
-export default goPlayRough
+            <div className={classes.Boxform} onClick={this.clicked}>
+
+            </div>
+
+        )
+    }
+};
+
+
+export default withRouter(GoPlayRough);

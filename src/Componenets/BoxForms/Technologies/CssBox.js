@@ -1,16 +1,29 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import classes from './CssBox.css'
-
-const cssBox = () => (
-   
-        <div className={classes.Boxform}>
-            
-                Pure CSS
-
-        </div>
-    );
+import { withRouter } from 'react-router-dom';
 
 
+class CssBox extends Component {
 
-export default cssBox;
+        clicked = () => {
+                this.props.history.push('/css')
+        };
+
+        render() {
+                return (
+                        <div className={classes.Boxform} onClick={this.clicked}>
+
+                                Pure CSS
+
+                        </div>
+                );
+
+        }
+};
+
+
+
+
+
+export default withRouter(CssBox);
