@@ -2,7 +2,7 @@
 .wrapper {
   display: flex;
   flex-direction: row;
-  width: 400vw;
+  width: 10240px;
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
@@ -20,23 +20,23 @@
 }
 
 .one {
-  background-image: url(../Images/2gfwG.png);
-  width: 100vw;
+  background-image: url(../Images/ls1ver11.jpg);
+  width: 2560px;
   height: 100vh;
 }
 .two {
-  background-image: url(../Images/2gfwG.png);
-  width: 100vw;
+  background-image: url(../Images/ls2ver17.jpg);
+  width: 2560px;
   height: 100vh;
 }
 .three {
-  background-image: url(../Images/2gfwG.png);
-  width: 100vw;
+  background-image: url(../Images/ls3ver14.jpg);
+  width: 2560px;
   height: 100vh;
 }
 .four {
-  background-image: url(../Images/fgI4k.jpg);
-  width: 100vw;
+  background-image: url(../Images/ls4ver11.jpg);
+  width: 2560px;
   height: 100vh;
 }
 

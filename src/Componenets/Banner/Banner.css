@@ -1,35 +1,35 @@
 .banner1{
     display: flex;
     font-size: 90px;
-    margin-top: 6%;
+    margin-top: 3%;
     font-family: 'Major Mono Display', monospace;
-    margin-left: 15%;
+    margin-left: 12%;
 
 }
 
 .banner2{
     display: flex;
-    margin-left: 30%;
+    margin-left: 28%;
     font-size: 75px;
-    margin-top: 7%;
+    margin-top: 5%;
     font-family: 'Major Mono Display', monospace;
 
 }
 
 .banner3{
     display: flex;
-    margin-left: 40%;
+    margin-left: 34%;
     font-size: 75px;
-    margin-top: 4%;
+    margin-top: 3%;
     font-family: 'Major Mono Display', monospace;
 
 }
 
 .banner4{
     display: flex;
-    margin-left: 50%;
+    margin-left: 40%;
     font-size: 75px;
-    margin-top: 4%;
+    margin-top: 3%;
     font-family: 'Major Mono Display', monospace;
 
 }
